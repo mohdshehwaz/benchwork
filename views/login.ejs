@@ -1,0 +1,37 @@
+<style>
+    #main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#fr{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#fr input{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+#fr button{
+    margin-top: 10px;
+    width: 7%;
+    height: 25px;
+    background-color: brown;
+}
+</style>
+
+<div id="main">
+    <h1>Login system</h1>
+    <form id="fr" action="/login" method="POST">
+        <input type="email" name="email" placeholder="email">
+        <input type="password" name="password" placeholder="password">
+        <button > Login</button>
+        
+    </form>
+    
+</div>
